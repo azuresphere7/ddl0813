@@ -1,0 +1,89 @@
+# Maven-specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Maven wrapper files
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# NetBeans specific files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# VS Code specific files
+.vscode/
+
+# Mac OS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Generated files
+*.class
+
+# Temporary files
+*.swp
+*~.nib
+*~
+
+# Ignore all Java class files
+**/*.class
+
+# Ignore compiled dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Ignore backup and temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Ignore generated documentation
+/apidocs/
+
+# Ignore IDE-specific files
+/.idea/
+/*.iml
+/target/
+
+# Ignore specific to Maven plugin configurations
+**/maven-archiver/
+**/maven-status/
